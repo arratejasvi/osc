@@ -20,6 +20,25 @@
     	<version>2.5</version>
     	<scope>provided</scope>
     </dependency>
+    <dependency>
+    	<groupId>com.microsoft.sqlserver</groupId>
+    	<artifactId>mssql-jdbc</artifactId>
+    	<version>7.1.4.jre8-preview</version>
+    	<scope>test</scope>
+	</dependency>
+    <!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
+	<dependency>
+    	<groupId>javax.mail</groupId>
+   		<artifactId>javax.mail-api</artifactId>
+    	<version>1.6.2</version>
+	</dependency>
+    <!-- https://mvnrepository.com/artifact/javax.activation/javax.activation-api -->
+	<dependency>
+    	<groupId>javax.activation</groupId>
+    	<artifactId>javax.activation-api</artifactId>
+    	<version>1.2.0</version>
+	</dependency>
+    
   </dependencies>
   <build>
     <finalName>online-shopping</finalName>

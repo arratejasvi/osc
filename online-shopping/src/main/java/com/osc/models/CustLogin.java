@@ -1,12 +1,10 @@
 package com.osc.models;
 
-public class Admin {
-	
+public class CustLogin {
 	
 	private String username;
 	private String password;
-	
-	public String getUsername() {
+    public String getUsername() {
 		return username;
 	}
 	public void setUsername(String username) {
@@ -18,7 +16,7 @@ public class Admin {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public Admin() {
+	public CustLogin() {
 		super();
 	}
 	
